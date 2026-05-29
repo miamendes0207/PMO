@@ -1,0 +1,35 @@
+{
+  "tier": "tier_1",
+  "description": "Enter a short description.",
+  "project_start_date": "2025-12-11",
+  "expected_end_date": "2025-12-30",
+  "project_manager": "Anais Westergaard",
+  "settings": {
+    "tier": "tier_1",
+    "branding": {
+      "primary": "#142D53",
+      "secondary": "#1E74BB"
+    }
+  },
+  "access_list": [
+    {
+      "role": "exec",
+      "email": "user@exec.com"
+    },
+    {
+      "role": "exec",
+      "email": "test@scopesight.com"
+    },
+    {
+      "role": "ceo",
+      "email": "test@scopesight.com"
+    },
+    {
+      "role": "ceo",
+      "email": "user@ceo.com"
+    }
+  ],
+  "raids_config": {},
+  "actions_config": {},
+  "nfr_config": {}
+}

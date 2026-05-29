@@ -1,0 +1,51 @@
+/* === Plenitude Consulting Global Theme === */
+
+.pmo-header {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.pmo-logo {
+    height: 65px;
+}
+
+.pmo-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pmo-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #002B5C; /* Plenitude navy */
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.pmo-subtitle {
+    font-size: 0.9rem;
+    color: #00743C; /* Plenitude green accent */
+    margin: 0;
+    font-style: italic;
+}
+
+.pmo-divider {
+    border: none;
+    border-top: 3px solid #002B5C;
+    margin-bottom: 1.5rem;
+}
+
+.stButton>button {
+    background-color: #002B5C !important;
+    color: white !important;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.stButton>button:hover {
+    background-color: #00743C !important;
+    color: white !important;
+}

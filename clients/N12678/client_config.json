@@ -1,0 +1,16 @@
+{
+    "document_prefix": "N12678_",
+    "display_name": "N12678",
+    "parsers": {
+        "nfr": "nfr_parser",
+        "raids": "raids_parser",
+        "actions": "actions_parser"
+    },
+    "templates": {
+        "nfr_template": "clients/N12678/templates/nfr_template.docx",
+        "raid_template": "clients/N12678/templates/raid_template.docx",
+        "action_template": "clients/N12678/templates/action_template.docx"
+    },
+    "dashboard": "dashboards",
+    "created": "2026-02-04T16:12:16.218836"
+}

@@ -1,0 +1,16 @@
+{
+    "document_prefix": "6789D_",
+    "display_name": "6789d",
+    "parsers": {
+        "nfr": "nfr_parser",
+        "raids": "raids_parser",
+        "actions": "actions_parser"
+    },
+    "templates": {
+        "nfr_template": "clients/6789d/templates/nfr_template.docx",
+        "raid_template": "clients/6789d/templates/raid_template.docx",
+        "action_template": "clients/6789d/templates/action_template.docx"
+    },
+    "dashboard": "dashboards",
+    "created": "2026-01-08T15:29:07.096155"
+}

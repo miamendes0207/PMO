@@ -1,0 +1,9 @@
+{
+  "document_prefix": "TEST_CLIENT_",
+  "templates": {
+    "nfr_template": "clients/test_client/templates/nfr_template.docx"
+  },
+  "parsers": {
+    "nfr": "nfr_parser"
+  }
+}
