@@ -1,0 +1,28 @@
+{
+  "tier": "tier_2",
+  "description": "Tier 2 – Flexible NFR processing. Loose parsing rules, relaxed structure, custom section visibility.",
+
+  "structure": {
+    "strict_mode": false,
+    "required_sections": [],
+    "enforce_section_order": false
+  },
+
+  "parsing": {
+    "use_keywords": true,
+    "detect_dates": true,
+    "detect_attendees": true,
+    "strict_header_matching": false,
+    "maximum_section_gap": 10
+  },
+
+  "actions_extraction": {
+    "enabled": true,
+    "strict_phrases": [
+      "Action:",
+      "Follow-up:",
+      "Task:"
+    ],
+    "allow_freeform_actions": true
+  }
+}

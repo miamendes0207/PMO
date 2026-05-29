@@ -1,0 +1,12 @@
+{
+  "client_code": "nbrown",
+  "client_name": "N Brown",
+  "tier": "tier_2",
+  "access_list": [
+    "mia@plenitude.com",
+    "tj@plenitude.com"
+  ],
+  "submitted_by": "mia@plenitude.com",
+  "submitted_on": "2025-11-20",
+  "status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "tier": "tier_1",
+  "description": "Tier 1 settings — strict governance, mandatory workflows, escalations enabled.",
+  "governance": {
+    "pack_type": "full",
+    "slide_template": "gov_pack_template.pptx",
+    "requires_weekly_pack": true,
+    "requires_monthly_pack": true
+  },
+  "alerts": {
+    "enable_alerts": true,
+    "alert_frequency": "daily",
+    "enable_escalations": true
+  },
+  "nfr": {
+    "mode": "strict"
+  },
+  "raid": {
+    "mode": "fully_structured"
+  },
+  "actions": {
+    "mode": "mandatory_metadata"
+  }
+}

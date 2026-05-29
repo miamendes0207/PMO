@@ -1,0 +1,15 @@
+{
+    "client_name": "N Brown",
+    "folder_name": "nbrown",
+    "client_code": "NBRN",
+    "description": "Enter a short description.",
+    "tier": "tier_2",
+    "brand_primary": "#f58109",
+    "brand_secondary": "#ffffff",
+    "access_list": [
+        "mia.deoliveira@plenitudeconsulting.com"
+    ],
+    "submitted_by": "test@scopesight.com",
+    "submitted_on": "N/A",
+    "status": "awaiting_approval"
+}

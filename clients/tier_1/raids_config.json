@@ -1,0 +1,34 @@
+{
+  "tier": "tier_1",
+  "description": "Tier 1 – Very Hands-On PMO. All RAID fields enabled and mandatory. Strict structure.",
+  "fields": {
+    "title": true,
+    "description": true,
+    "owner": true,
+    "status": true,
+    "category": true,
+    "impact": true,
+    "likelihood": true,
+    "severity": true,
+    "mitigation": true,
+    "target_date": true,
+    "raised_date": true,
+    "dependencies": true,
+    "controls": true,
+    "cost_impact": true,
+    "time_impact": true,
+    "rag_status": true,
+    "audit_trail": true
+  },
+  "mandatory_fields": [
+    "title",
+    "description",
+    "owner",
+    "category",
+    "impact",
+    "likelihood",
+    "mitigation",
+    "status",
+    "rag_status"
+  ]
+}

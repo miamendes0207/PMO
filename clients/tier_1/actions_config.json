@@ -1,0 +1,27 @@
+{
+  "tier": "tier_1",
+  "description": "Tier 1 – Very Hands-On. All action fields mandatory. Strict workflow.",
+  "fields": {
+    "title": true,
+    "detail": true,
+    "owner": true,
+    "assigned_by": true,
+    "due_date": true,
+    "status": true,
+    "priority": true,
+    "related_risk": true,
+    "related_issue": true,
+    "date_raised": true,
+    "audit_trail": true
+  },
+  "mandatory_fields": [
+    "title",
+    "detail",
+    "owner",
+    "due_date",
+    "status",
+    "priority"
+  ],
+  "status_options": ["Not Started", "In Progress", "Blocked", "Complete"],
+  "priority_options": ["High", "Medium", "Low"]
+}

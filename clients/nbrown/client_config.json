@@ -1,0 +1,16 @@
+{
+    "client_name": "NBrown",
+    "document_prefix": "NB_",
+
+    "parsers": {
+        "nfr": "nfr_parser_nbrown"
+    },
+
+    "templates": {
+        "nfr_template": "modules/clients/nbrown/templates/n_brown_nfr_template.docx"
+    },
+
+    "default_meeting_name": "N Brown & Plenitude Daily Stand Up",
+    "default_location": "Teams",
+    "default_time": "10:00"
+}

@@ -1,0 +1,42 @@
+{
+  "tier": "tier_2",
+  "description": "Tier 2 – Hands-On + Flexible PMO. All RAID fields available but optional. User can enable/disable fields in the UI.",
+
+  "fields": {
+    "title": true,
+    "description": true,
+    "owner": true,
+    "status": true,
+    "category": true,
+
+    "impact": true,
+    "likelihood": true,
+    "severity": true,
+
+    "mitigation": true,
+    "target_date": true,
+    "raised_date": true,
+
+    "dependencies": true,
+    "controls": true,
+
+    "cost_impact": true,
+    "time_impact": true,
+
+    "rag_status": true,
+    "audit_trail": true
+  },
+
+  "default_visible_fields": {
+    "impact": true,
+    "likelihood": true,
+    "mitigation": true,
+    "owner": true,
+    "rag_status": false,
+    "controls": false,
+    "cost_impact": false,
+    "time_impact": false
+  },
+
+  "mandatory_fields": []
+}

@@ -1,0 +1,34 @@
+{
+  "tier": "tier_1",
+  "description": "Tier 1 – Very Hands-On NFR processing. Strict parsing rules, mandatory sections, enforced structure.",
+
+  "structure": {
+    "strict_mode": true,
+    "required_sections": [
+      "Objectives",
+      "Key Updates",
+      "Risks & Issues",
+      "Decisions",
+      "Actions"
+    ],
+    "enforce_section_order": true
+  },
+
+  "parsing": {
+    "use_keywords": true,
+    "detect_dates": true,
+    "detect_attendees": true,
+    "strict_header_matching": true,
+    "maximum_section_gap": 3
+  },
+
+  "actions_extraction": {
+    "enabled": true,
+    "strict_phrases": [
+      "Action:",
+      "Action -",
+      "Follow-up:",
+      "Task:"
+    ]
+  }
+}

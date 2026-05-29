@@ -1,0 +1,9 @@
+{
+    "document_prefix": "DEMO_",
+    "templates": {
+        "nfr_template": "clients/demo_client/templates/nfr_template.docx"
+    },
+    "parsers": {
+        "nfr": "nfr_parser"
+    }
+}

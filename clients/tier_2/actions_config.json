@@ -1,0 +1,28 @@
+{
+  "tier": "tier_2",
+  "description": "Tier 2 – Hands-On + Flexible actions. All fields available but none enforced. Metadata optional.",
+
+  "fields": {
+    "title": true,
+    "detail": true,
+    "owner": true,
+    "assigned_by": true,
+    "due_date": true,
+    "status": true,
+    "priority": true,
+    "related_risk": true,
+    "related_issue": true,
+    "date_raised": true,
+    "audit_trail": true
+  },
+
+  "mandatory_fields": [],
+
+  "status_options": ["Not Started", "In Progress", "Blocked", "Complete"],
+  "priority_options": ["High", "Medium", "Low"],
+
+  "defaults": {
+    "status": "Not Started",
+    "priority": "Medium"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tier": "tier_2",
+  "description": "Tier 2 settings — flexible governance, optional escalations, lighter reporting cadence.",
+
+  "governance": {
+    "pack_type": "standard",
+    "slide_template": "gov_pack_template.pptx",
+    "requires_weekly_pack": true,
+    "requires_monthly_pack": false
+  },
+
+  "alerts": {
+    "enable_alerts": true,
+    "alert_frequency": "weekly",
+    "enable_escalations": false
+  },
+
+  "nfr": {
+    "mode": "flexible"
+  },
+
+  "raid": {
+    "mode": "all_fields_optional"
+  },
+
+  "actions": {
+    "mode": "lightweight"
+  }
+}
